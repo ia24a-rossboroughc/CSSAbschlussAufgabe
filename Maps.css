@@ -1,0 +1,23 @@
+body {
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+}
+.img1{
+    height: 400px;
+    width: auto;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+    padding: 32px;
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+}
+.title{
+    font-size: 48px;
+}

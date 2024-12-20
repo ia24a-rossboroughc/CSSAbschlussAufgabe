@@ -1,0 +1,157 @@
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    width: auto;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 24px;
+
+}
+.headerLinks{
+    display: flex;
+    color: white;
+    gap: 16px;
+    padding-right: 24px;
+    font-size: 18px;
+}
+a{
+    color:white;
+}
+
+.firstBody{
+    display: flex;
+    background-color:    #1F2937;
+
+}
+.firstBodyleft{
+    flex-direction: column;
+    flex:1;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.firstBodyright{
+    flex:1;
+}
+.firstBodyright img{
+    width: 50%;
+    height: auto;
+}
+.h{
+    display: flex;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 400px;
+}
+.l{
+    display: flex;
+    color:#E5E7EB;
+    max-width: 400px;
+
+}
+
+.headerLogo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+img{
+    height: 100px;
+    width: auto;
+}
+.img1{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.img2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+}
+.middlepart{
+    background-color: white;
+    padding: 32px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.thirdpart {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    justify-content: center;
+
+}
+.Autor{
+    padding:30px;
+    font-weight: bold;
+    padding-top: 200px;
+
+}
+.Quote{
+    padding:32px;
+    flex-direction: column;
+}
+.textfooter{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 15px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.fourthpart{
+
+    padding: 64px 128px;
+}
+.flexcontainer{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 32px 64px;
+}
+.headerfour{
+    color:white;
+    font-size: 32px;
+}
+.textfour{
+    color: #E5E7EB;
+    font-size: 24px;
+}
+.buttonfour{
+    border-color: white;
+    align-self: center;
+    font-size: larger;
+}
+
+
